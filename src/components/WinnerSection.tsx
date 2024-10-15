@@ -169,7 +169,7 @@ export default function TabsSection() {
             types, or business models.
           </p>
           <Button className="bg-[#6366F1] hover:bg-[#5457E5] text-white mb-4">
-            Create Landscape - It's Free
+            Create Landscape - It&apos;s Free
           </Button>
           <p className="text-sm items-center flex gap-2 align-middle"><CiCreditCard1 /> No Credit Card Required</p>
         </div>

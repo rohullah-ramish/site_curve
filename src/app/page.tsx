@@ -90,7 +90,7 @@ export default function Home() {
               Private or Paid Options.
             </h2>
             <p className="text-lg text-gray-600 max-w-4xl">
-              Whether you're looking to share insights with the broader
+              Whether you&apos;re looking to share insights with the broader
               community, collaborate privately with select teams, or monetize
               your expertise, SiteCurve offers unique visibility options to get
               the most value out of your data.

@@ -8,7 +8,6 @@ import { Button } from "./ui/button";
 import {
   Card,
   CardContent,
-  CardFooter,
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
@@ -27,7 +26,7 @@ export default function PlanSection() {
         <CardContent>
           <p className="text-center mb-8 text-gray-600">
             SiteCurve offers simple, secure pricing and payment options based on
-            the keywords you use to build your landscapes. See who's winning and
+            the keywords you use to build your landscapes. See who&apos;s winning and
             losing across 1,000 keywords or 100,000, SiteCurve is built for
             scale. Paid accounts have access to all SiteCurve features. Choose
             annual payment, and get 20% off. Upgrade, downgrade, or cancel at
@@ -96,7 +95,7 @@ export default function PlanSection() {
           <CardHeader>
             <CardTitle>Starter</CardTitle>
             <p className="text-sm text-gray-600">
-              For individuals who want to browse other user's landscapes, create
+              For individuals who want to browse other user&apos;s landscapes, create
               website portfolios, or join in on discussions.
             </p>
           </CardHeader>
@@ -179,7 +178,7 @@ export default function PlanSection() {
             </p>
           </CardHeader>
           <CardContent>
-            <div className="text-4xl font-bold mb-4">Let's Talk</div>
+            <div className="text-4xl font-bold mb-4">Let&apos;s Talk</div>
             <Button className="w-full mb-4" variant="secondary">
               Contact Us
             </Button>

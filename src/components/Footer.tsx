@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="container mx-auto px-4 py-12">
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">Stay Ahead of The Curve</h2>
-          <p className="text-xl mb-6">Discover Who's Winning And Losing In SEO And Why.</p>
+          <p className="text-xl mb-6">Discover Who&apos;s Winning And Losing In SEO And Why.</p>
           <button className="bg-[#4c4cff] hover:bg-[#3a3aff] text-white font-bold py-3 px-6 rounded-md text-lg">
             Start 14-Day Free Trial
           </button>

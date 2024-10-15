@@ -33,10 +33,10 @@ export default function SEO() {
         <div className="text-start mb-12">
           <Button variant="outline" className="mb-6">SEO Intelligence</Button>
           <h2 className="text-4xl font-bold text-gray-900 mb-4 sm:text-5xl">
-            The Most Complete SEO Landscaping Solution to Help Inform What You Should (and Shouldn't) Do to Win in Search
+            The Most Complete SEO Landscaping Solution to Help Inform What You Should (and Shouldn&apos;t) Do to Win in Search
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto md:mx-0 ">
-            Tailored SEO solutions for every need. Whether you're an agency managing multiple clients, an enterprise tracking global performance, or an SEO professional looking for critical insights, SiteCurve has you covered with the tools to drive success for your business.
+            Tailored SEO solutions for every need. Whether you&apos;re an agency managing multiple clients, an enterprise tracking global performance, or an SEO professional looking for critical insights, SiteCurve has you covered with the tools to drive success for your business.
           </p>
         </div>
 

@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
+import { Card, CardContent } from "./ui/card";
 
 export default function SEOVisibility() {
   return (
@@ -12,10 +12,10 @@ export default function SEOVisibility() {
           </Button>
           <h2 className="text-4xl font-bold text-gray-900 mb-4 sm:text-5xl">
             The Most Complete SEO Landscaping Solution to Help Inform What You
-            Should (and Shouldn't) Do to Win in Search
+            Should (and Shouldn&apos;t) Do to Win in Search
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto md:mx-0 ">
-            Tailored SEO solutions for every need. Whether you're an agency
+            Tailored SEO solutions for every need. Whether you&apos;re an agency
             managing multiple clients, an enterprise tracking global
             performance, or an SEO professional looking for critical insights,
             SiteCurve has you covered with the tools to drive success for your
