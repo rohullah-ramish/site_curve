@@ -36,7 +36,7 @@ const ProcessStep: React.FC<ProcessStepProps> = ({
 export default function TabsSection() {
   return (
     <>
-      <div className="bg-[#F3F1FF] p-8 text-center">
+      <div className="bg-[#F3F1FF] p-2 md:p-8 text-center h-full">
         <h1 className="text-4xl font-bold text-[#2D2A53] mb-4">
           Gain an advantage over your competitors with next-level SEO
           intelligence
@@ -47,40 +47,40 @@ export default function TabsSection() {
         </p>
         <Tabs
           defaultValue="winners-losers"
-          className="w-full max-w-4xl mx-auto"
+          className="w-full mx-auto py-2 overflow-x-auto"
         >
-          <TabsList className="grid w-full grid-cols-2 md:grid-cols-5  rounded-lg gap-2">
+          <TabsList className="container ms-2  mx-auto flex space-x-2 lg:space-x-4 rounded-lg gap-2">
             <TabsTrigger
               value="winners-losers"
-              className="flex items-center border justify-center py-2 px-4 data-[state=active]:border-[#6366F1] data-[state=active]:text-[#6366F1] rounded-md transition-all"
+              className="flex items-center border justify-center py-2 px-4 text-[10px] md:text-base data-[state=active]:border-[#6366F1] data-[state=active]:text-[#6366F1] rounded-md transition-all"
             >
               <ArrowUpRight className="w-4 h-4 mr-2" />
               Winners & Losers
             </TabsTrigger>
             <TabsTrigger
               value="leaderboards"
-              className="flex items-center border justify-center py-2 px-4 data-[state=active]:border-[#6366F1] data-[state=active]:text-[#6366F1] rounded-md transition-all"
+              className="flex items-center border justify-center py-2 px-4 text-[10px] md:text-base data-[state=active]:border-[#6366F1] data-[state=active]:text-[#6366F1] rounded-md transition-all"
             >
               <Trophy className="w-4 h-4 mr-2" />
               Leaderboards
             </TabsTrigger>
             <TabsTrigger
               value="new-entrants"
-              className="flex items-center border justify-center py-2 px-4 data-[state=active]:border-[#6366F1] data-[state=active]:text-[#6366F1] rounded-md transition-all"
+              className="flex items-center border justify-center py-2 px-4 text-[10px] md:text-base data-[state=active]:border-[#6366F1] data-[state=active]:text-[#6366F1] rounded-md transition-all"
             >
               <Clock className="w-4 h-4 mr-2" />
               New Entrants
             </TabsTrigger>
             <TabsTrigger
               value="unique-metrics"
-              className="flex items-center border justify-center py-2 px-4 data-[state=active]:border-[#6366F1] data-[state=active]:text-[#6366F1] rounded-md transition-all"
+              className="flex items-center border justify-center py-2 px-4 text-[10px] md:text-base data-[state=active]:border-[#6366F1] data-[state=active]:text-[#6366F1] rounded-md transition-all"
             >
               <BarChart3 className="w-4 h-4 mr-2" />
               Unique SEO Metrics
             </TabsTrigger>
             <TabsTrigger
               value="portfolios"
-              className="flex items-center border justify-center py-2 px-4 data-[state=active]:border-[#6366F1] data-[state=active]:text-[#6366F1] rounded-md transition-all"
+              className="flex items-center border justify-center py-2 px-4 text-[10px] md:text-base data-[state=active]:border-[#6366F1] data-[state=active]:text-[#6366F1] rounded-md transition-all"
             >
               <Briefcase className="w-4 h-4 mr-2" />
               Portfolios
