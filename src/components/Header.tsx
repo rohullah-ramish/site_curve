@@ -77,18 +77,18 @@ export default function Header() {
             </button>
           ) : (
             <div className="hidden lg:flex items-center space-x-4">
-              <NavItem href="/features" hasDropdown>
+              <NavItem href="/" hasDropdown>
                 Features
               </NavItem>
-              <NavItem href="/pricing">Pricing</NavItem>
-              <NavItem href="/company" hasDropdown>
+              <NavItem href="/">Pricing</NavItem>
+              <NavItem href="/" hasDropdown>
                 Company
               </NavItem>
-              <NavItem href="/resources" hasDropdown>
+              <NavItem href="/" hasDropdown>
                 Resources
               </NavItem>
-              <NavItem href="/enterprise">Enterprise</NavItem>
-              <NavItem href="/login">Login</NavItem>
+              <NavItem href="/">Enterprise</NavItem>
+              <NavItem href="/">Login</NavItem>
               <button className="bg-indigo-600 text-white px-4 py-2 rounded">
                 Create Landscape
               </button>
@@ -102,7 +102,7 @@ export default function Header() {
       <div className="bg-[#040033] py-2 overflow-x-auto">
         <div className="container mx-auto flex space-x-2 lg:space-x-4">
           <WebsiteCard
-            name="garagegymreviews.com"
+            name="garagegyws.com"
             traffic="4.2M"
             change="↓ 52%"
           />

@@ -9,6 +9,30 @@ import SEO from "@/components/SeoSection";
 import TabsSection from "@/components/WinnerSection";
 import SEOVisibility from "@/components/SeoVisibaility";
 export default function Home() {
+  const landscapeOptions = [
+    {
+      title: "Public Landscapes",
+      icon: <Lock className="w-6 h-6 text-gray-600" />,
+      description:
+        "With public landscapes, anyone on SiteCurve can access your data and insights and join you in discussions on your landscape. Ideal for professionals looking to openly share and collaborate on insights, contributing to industry-wide discussions and building a reputation as thought leaders.",
+      cta: "Create Public Landscape",
+    },
+    {
+      title: "Private Landscapes",
+      icon: <Lock className="w-6 h-6 text-gray-600" />,
+      description:
+        "With private landscapes, only users who apply or are invited and are accepted by you can access your data and insights. Ideal for companies who only want to share data among employees or for agencies who only want to share a landscape with a client.",
+      cta: "Create Private Landscape",
+    },
+    {
+      title: "Paid Landscapes",
+      icon: <DollarSign className="w-6 h-6 text-gray-600" />,
+      description:
+        "With paid landscapes, only users who pay you for access or are directly invited can view your exclusive data, insights, and discussions. Ideal for experts looking to monetize their knowledge by offering premium content and in-depth analysis to clients or subscribers.",
+      cta: "Create Paid Landscape",
+    },
+  ];
+
   return (
     <div>
       <Header />
@@ -30,7 +54,7 @@ export default function Home() {
             <div className="rounded-md shadow">
               <a
                 href="/"
-                className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-md md:px-10"
+                className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-sm font-semibold rounded-md text-white bg-[#4B42F4] md:py-4 md:text-md md:px-10"
               >
                 Create Landscape - It's Free
               </a>
@@ -38,7 +62,7 @@ export default function Home() {
             <div className="mt-3 sm:mt-0 sm:ml-3">
               <a
                 href="/"
-                className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-600 bg-white hover:bg-gray-50 md:py-4 md:text-md md:px-10"
+                className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-sm font-semibold rounded-md text-indigo-600 bg-white hover:bg-gray-50 md:py-4 md:text-md md:px-10"
               >
                 <span className="md:hidden">Schedule Product Demo</span>
                 <span className="hidden md:inline">Schedule Demo</span>
@@ -51,10 +75,10 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <TabsSection/>
-      <SEOVisibility/>
-      <SEO/>
-      <Visibility/>
+      <TabsSection />
+      <SEOVisibility />
+      <SEO />
+      <Visibility />
       <section className="bg-white py-12 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <div className="mb-8">
@@ -74,29 +98,7 @@ export default function Home() {
           </div>
 
           <div className="grid gap-8 md:grid-cols-3">
-            {[
-              {
-                title: "Public Landscapes",
-                icon: <Lock className="w-6 h-6 text-gray-600" />,
-                description:
-                  "With public landscapes, anyone on SiteCurve can access your data and insights and join you in discussions on your landscape. Ideal for professionals looking to openly share and collaborate on insights, contributing to industry-wide discussions and building a reputation as thought leaders.",
-                cta: "Create Public Landscape",
-              },
-              {
-                title: "Private Landscapes",
-                icon: <Lock className="w-6 h-6 text-gray-600" />,
-                description:
-                  "With private landscapes, only users who apply or are invited and are accepted by you can access your data and insights. Ideal for companies who only want to share data among employees or for agencies who only want to share a landscape with a client.",
-                cta: "Create Private Landscape",
-              },
-              {
-                title: "Paid Landscapes",
-                icon: <DollarSign className="w-6 h-6 text-gray-600" />,
-                description:
-                  "With paid landscapes, only users who pay you for access or are directly invited can view your exclusive data, insights, and discussions. Ideal for experts looking to monetize their knowledge by offering premium content and in-depth analysis to clients or subscribers.",
-                cta: "Create Paid Landscape",
-              },
-            ].map((option, index) => (
+            {landscapeOptions.map((option, index) => (
               <div key={index} className="flex flex-col">
                 <div className="flex items-center mb-2">
                   {option.icon}
